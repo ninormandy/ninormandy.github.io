@@ -28,7 +28,8 @@ body {
 #card-front,
 #card-inside {
   width: 50%;
-  -webkit-box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.25),
+    0 0 1px rgba(0, 0, 0, 0.5);
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.5);
   position: absolute;
   left: 50%;
@@ -65,7 +66,8 @@ body {
   font-family: "Lobster", cursive;
   font-style: italic;
   font-size: 70px;
-  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15), 1px 1px 0 #ffc8c8, 2px 2px 0 #ff9696, 3px 3px 0 #ff7d7d;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15), 1px 1px 0 #ffc8c8,
+    2px 2px 0 #ff9696, 3px 3px 0 #ff7d7d;
   color: #fff;
 }
 
@@ -103,7 +105,13 @@ p.signed {
 
 #card-front {
   background-color: #ee9ca7;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff5555), to(#ff7777));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ff5555),
+    to(#ff7777)
+  );
   background-image: linear-gradient(top, #ff5555 0%, #ff7777 100%);
   -webkit-transform-origin: left;
   transform-origin: left;
@@ -150,7 +158,8 @@ p.signed {
   padding: 0.5em;
   border: none;
   cursor: pointer;
-  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25),
+    0 0 1px rgba(0, 0, 0, 0.4);
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.4);
 }
 
@@ -302,7 +311,8 @@ footer {
 /* ============================================== Animation Fire
 */
 @-webkit-keyframes fuego {
-  0%, 100% {
+  0%,
+  100% {
     background: rgba(254, 248, 97, 0.5);
     -webkit-box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
     box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
@@ -318,7 +328,8 @@ footer {
   }
 }
 @keyframes fuego {
-  0%, 100% {
+  0%,
+  100% {
     background: rgba(254, 248, 97, 0.5);
     -webkit-box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
     box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
@@ -386,6 +397,25 @@ footer {
   pointer-events: none;
   -webkit-transition: background 1s linear;
   transition: background 1s linear;
+}
+
+.pic {
+  display: block;
+  bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 180px;
+  float: right;
+  position: relative;
+  z-index: 100;
+
+  object-fit: contain;
+
+  background-size: contain;
+
+  background-image: url("https://o.remove.bg/downloads/46585960-9bf9-4880-946b-11adb7008411/download-removebg-preview.png");
+  background-repeat: no-repeat;
 }
 
 .polaroid {
