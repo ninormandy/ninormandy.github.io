@@ -371,7 +371,7 @@ footer {
 .card-front_inside {
   position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: 9%;
   left: 0;
   right: 0;
   height: 70%;
