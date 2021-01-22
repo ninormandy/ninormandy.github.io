@@ -457,8 +457,8 @@ footer {
   backface-visibility: hidden;
   background-position: center;
   background-size: cover;
-  -webkit-animation: fade-in 50s ease-in;
-  animation: fade-in 50s ease-in;
+  -webkit-animation: fade-in 40s ease-in;
+  animation: fade-in 40s ease-in;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
